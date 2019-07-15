@@ -8,12 +8,13 @@ java se-10
 3. Precise command-line compilation examples / instructions:
 
 
-> javac Blockchain.java
-
+javac Blockchain.java
+(for java 10) javac --add-modules java.xml.bind Blockchain.java
 
 4. Precise examples / instructions to run this program:
 
-> java Blockchain
+java Blockchain 0 (or 1, 2 etc. for process id)
+(for java 10) java --add-modules java.xml.bind Blockchain 0
 
 5. List of files needed for running the program.
 
